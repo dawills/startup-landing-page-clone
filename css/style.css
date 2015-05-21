@@ -433,15 +433,12 @@ th {
 }
 /*Navigation Section*/
 
-.top-navigation{
-  
-}
 .top-navigation >.content {
   width: 970px;
   height:70px;
   margin:0 auto;
   padding:0px 15 px;
-letter-spacing:0.03em;
+  letter-spacing:0.03em;
 
 }
 .top-navigation .links{
@@ -462,4 +459,25 @@ letter-spacing:0.03em;
 .top-navigation .links li:hover{
   cursor: pointer;
   color:#333333;
+}
+.introduction {
+  background-image: url('images/first-background.jpeg')
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:45.93;
+}
+.content {
+  font-color:white;
+}
+.big-button {
+  text-shadow:none;
+  border-style:none;
+  border-radius:4px;
+  padding:16px 26px;
+  line-height: 1.33;
+  background-color: orange;
+  font-size: 1px;
+  margin: 0 auto;
+  margin-top:2px;
 }
