@@ -432,17 +432,18 @@ th {
   padding: 0;
 }
 /*Navigation Section*/
-
+.top-navigation{
+  background-color: white;
+}
 .top-navigation >.content {
   width: 970px;
   height:70px;
   margin:0 auto;
   padding:0px 15 px;
   letter-spacing:0.03em;
-
 }
 .top-navigation .links{
-  float:right;
+  float:right; 
   font-family:'Roboto', sans-serif;
   font-size: 16px:
   color:#838994;
@@ -460,24 +461,33 @@ th {
   cursor: pointer;
   color:#333333;
 }
-.introduction {
-  background-image: url('images/first-background.jpeg')
-  background-position: center bottom;
+/*Introduction Section*/
+.introduction{
+  background-image: url(../images/first-background.jpg);
+  background-position:bottom;
   background-repeat: no-repeat;
-  background-size: cover;
-  height:45.93;
+  background-size:cover;
+  height:45.938rem;
+  overflow:auto;
 }
 .content {
+  margin-top:17.5rem;
+  font-size:15rem
   font-color:white;
+  text-align:center;
+  margin:0 auto;
+  padding:0px 15 px;
+  width:970px;
 }
-.big-button {
+button {
   text-shadow:none;
   border-style:none;
   border-radius:4px;
   padding:16px 26px;
   line-height: 1.33;
   background-color: orange;
-  font-size: 1px;
+  font-color:white;
+  font-size: 1em;
   margin: 0 auto;
   margin-top:2px;
 }
