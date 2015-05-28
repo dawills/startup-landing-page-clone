@@ -441,6 +441,7 @@ th {
   margin:0 auto;
   padding:0px 15 px;
   letter-spacing:0.03em;
+  font-color:black;
 }
 .top-navigation .links{
   float:right; 
@@ -476,7 +477,6 @@ th {
   margin-right:auto;
   margin-top:17.5rem;
   font-size:1.5rem;
-  font-color:white;
   text-align:center;
   padding:0px 15 px;
   width:970px;
