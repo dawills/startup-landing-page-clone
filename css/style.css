@@ -433,7 +433,14 @@ th {
 }
 /*Navigation Section*/
 .top-navigation{
-  background-color:none;
+  background-color:#fff;
+  position:fixed;
+  width:100%;
+  border-bottom:1px solid #DDD;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(221, 221, 221);
+  z-index:9999;
 }
 .top-navigation >.content {
   width: 970px;
@@ -534,6 +541,7 @@ button:hover {
 .cases .devices >li{
   width:33.3333333%;
   float:left;
+  display:inline-block;
 }
 .cases .devices h3{
   font-weight:400;
