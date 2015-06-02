@@ -552,6 +552,31 @@ button:hover {
   margin-bottom:1.875rem;
   margin-left:0px;
 }
-<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
-<link href="css/font-awesome.min.css" rel="stylesheet">
 
+ul>li{
+  list-style-type:none;
+  display:inline-block;
+}
+.social .icons > li {
+  border-radius:1.25rem;
+  width:2.5rem;
+  height:2.5rem;
+  margin:1.25rem 5px;
+  border:1px solid #eaebec;
+  padding:0.625rem 0;
+  text-align:center;
+}
+.social .copy {
+  font-size:0.9rem;
+  font-weight:300;
+  color:#838994;
+}
+.social .fa-twitter {
+  color:#55acee;
+}
+.social .fa-facebook {
+  color:#4c66a4;
+}
+.social .fa-instagram {
+  color:#3f729b;
+}
